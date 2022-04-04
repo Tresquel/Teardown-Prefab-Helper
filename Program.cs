@@ -1,4 +1,4 @@
-﻿namespace Teardown_Prefab_Helper
+namespace Teardown_Prefab_Helper
 {
     internal class Program
     {
@@ -91,19 +91,12 @@
                 string input = Console.ReadLine();
                 if (input == "y")
                 {
-                    done = true;
+                    Environment.Exit(0);
                 }
-            }
-            //ask if the user wants to exit
-            Console.WriteLine("Exit? (y/n)");
-            string input2 = Console.ReadLine();
-            if (input2 == "y")
-            {
-                Environment.Exit(0);
-            }
-            else
-            {
-                Main(args);
+                else
+                {
+                    Main(args);
+                }
             }
         }
     }
