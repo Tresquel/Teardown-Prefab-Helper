@@ -7,7 +7,7 @@ Helps you make spawn.txt files!
 - Run from command line: `"Teardown Prefab Helper.exe"`
 
 ## Installing
-Just download the binary for your architecture from the [releases](https://github.com/Tresquel/Teardown-Prefab-Helper/releases) tab.
+Just download the binary for your architecture from the [releases](https://github.com/Tresquel/Teardown-Prefab-Helper/releases/latest) tab.
 
 ## Building
 - With Visual Studio: just hit build solution in the build tab
